@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Adam Kuehn</h1>
+        <p>Computer Science</p>
+    </header>
+
+    <nav>
+        <a href="resume.html">Resume</a>
+        <a href="cover-letter.html">Cover Letter</a>
+        <a href="career-goals.html">Career Goals</a>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>Professional Summary</h2>
+
+            <p>
+                Computer Science student developing skills in software development,
+                web development, networking, and cybersecurity.
+            </p>
+        </section>
+
+        <section>
+            <h2>Work Experience</h2>
+
+            <article>
+                <h3>Delivery Driver - Domino's</h3>
+
+                <p>
+                    Deliver customer orders while providing professional customer
+                    service and managing transactions accurately.
+                </p>
+
+                <ul>
+                    <li>Deliver customer orders safely and efficiently.</li>
+                    <li>Provide professional customer service.</li>
+                    <li>Process customer payments accurately.</li>
+                </ul>
+
+            </article>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+
+            <article>
+                <h3>Western Governors University</h3>
+
+                <p> 
+                    Bachelor of Science in Computer Science<br>
+                    Currently enrolled
+                </p>
+            </article>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Technical Skills</h2>
+
+            <p>
+                <strong>Programming:</strong>
+                <span>HTML, CSS, JavaScript, Python</span>
+            </p>
+
+            <p>
+                <strong>IT Skills:</strong>
+                <span>Networking, troubleshooting, and cybersecurity fundamentals</span>
+            </p>
+
+            <p>
+                <em>Currentely developing additional software development and IT skills.</em>
+            </p>
+        </section>
+
+        <section>
+            <h2>Skills Overview</h2>
+
+            <table>
+                <caption>Technical Skill Levels</caption>
+
+                <tr>
+                    <th>Skill</th>
+                    <th>Experience Level</th>
+                </tr>
+
+                <tr>
+                    <td>HTML</td>
+                    <td>Beginner</td>
+                </tr>
+
+                <tr>
+                    <td>Python</td>
+                    <td>Intermediate</td>
+                </tr>
+                
+                <tr>
+                    <td>Networking</td>
+                    <td>Intermediate</td>
+                </tr>
+            
+            </table>
+        
+        </section>
+    
+    </main>
+
+    <footer>
+        <p>Portfolio created by Adam Kuehn</p>
+        <div id="current-date"></div>
+    </footer>
+
+    <script>
+        const today = new Date();
+        document.getElementById("current-date").textContent =
+            "Current Date: " + today.toLocaleDateString();
+
+        console.log("Resume page loaded successfully.");
+    </script>
+
+</body>
+
+</html>
